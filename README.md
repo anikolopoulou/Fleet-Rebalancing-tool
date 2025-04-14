@@ -25,9 +25,9 @@ Regarding the R class, the locations are randomly selected from a set of locatio
 
 **Input:** txt file with network characteristics
 - Line 1 indicates the number of nodes (n), the number of Vehicles, and the vehicle capacity.
-The next lines indicate for every station in the network: 
-- The first column indicates the station ID.
-- The next n columns indicate the distances between this node and all the rest.
+-The next lines indicate for every station in the network: 
+  - The first column indicates the station ID.
+  - The next n columns indicate the distances between this node and all the rest.
 - The next four columns indicate
   -   its actual_demand, i.e the number of bikes that need to be loaded or unloaded at the station (based on the forecasted demand and the status of the station)
   -   its capacity, i.e the maximum number of bikes that can be locked at a given station
