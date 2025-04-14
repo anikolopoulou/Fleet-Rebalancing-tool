@@ -34,7 +34,7 @@ Regarding the R class, the locations are randomly selected from a set of locatio
   -   its current status, i.e the number of bikes currently available at the station
   -   the forecasted demand, i.e the expected number of users of the station
 - The last two columns indicate the coordinates of each station, as generated from the benchmark instances provided in the work of (Sartori and Buriol, 2020). 
-  
+*The name of the file (i.e Coordinates_20_Random_Ber.txt) is used as input to the code, showing the path to the .txt file.   
 
 
 **Output:** txt file reporting:
