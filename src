@@ -14,12 +14,10 @@ import matplotlib
 from fontTools.misc.py23 import xrange
 
 if __name__ == "__main__":
-    # Create a new model
 
     # Create a new model
     Rebalancing = grb.Model(name="MIP Model")
 
-    # ensure that I keep the same random numbers
     rnd = np.random
     rnd.seed(0)
 
