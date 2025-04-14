@@ -23,7 +23,7 @@ To assess the solution quality with respect to the geographic distribution of bi
 Regarding the R class, the locations are randomly selected from a set of locations L. For the RC class, a number of locations are clustered, whereas the remaining are random as suggested by Sartori and Buriol (2020). Ultimately, for the C class, the stations are selected from a set L in a way that creates clusters, following the logic of Uchoa et al. (2017). In addition, the depot has been selected to be located at central positions of the examined geographic regions.
 
 
-**Input**
+**Input:**
 txt file with network characteristics
 Line 1 indicates the number of nodes (n), the number of Vehicles, and the vehicle capacity.
 The next lines indicate for every station in the network: 
@@ -39,6 +39,9 @@ The next lines indicate for every station in the network:
   
 
 
-**Output**
-csv with results
+**Output:**
+txt file reporting:
+- Line 1: routing costs, total costs (routing costs + penalty), runtime in sec
+- The next lines indicate the routing of the vehicles  performing loading/unloading operations
+- The next lines indicate the number of bikes to be loaded/unloaded  at each station
 
